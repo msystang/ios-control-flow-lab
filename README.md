@@ -33,6 +33,8 @@ print("D")
 - C
 - D
 
+The answer is "A" and "C".
+
 ***
 ## Question 2
 
@@ -42,11 +44,11 @@ What will the code block below print?  Select all that apply:
 let appInfo = (name: "myCoolApp", version: 0.4)
 switch appInfo {
  case (_, 0.0..<1.0):
- print("\(appInfo.0) hasn't released yet")
+    print("\(appInfo.0) hasn't released yet")
  case ("myCoolApp", _):
- print("Thanks for looking at myCoolApp!")
+    print("Thanks for looking at myCoolApp!")
  default:
- print("I'm not quite sure what you are looking at")
+    print("I'm not quite sure what you are looking at")
 }
 ```
 
@@ -56,6 +58,7 @@ switch appInfo {
 - I'm not quite sure what you are looking at
 - It will give a compile-time error
 
+The answer is "myCoolApp hasn't released yet".
 ***
 ## Question 3
 
@@ -80,6 +83,8 @@ default:
 - C
 - D
 
+The answer is "D".
+
 ***
 ## Question 4
 
@@ -103,6 +108,8 @@ case "snickers":
 - No default case in the switch statement
 - No print statement right outside the switch statement
 
+The answer is "No default case in the switch statement".
+
 ***
 ## Question 5
 
@@ -112,6 +119,18 @@ Given the current weather conditions (rain, sunny, snow), use a switch statement
 let currentWeather = "rain"
 
 // enter code below
+let currentWeather = "rain"
+
+switch currentWeather {
+case "rain":
+print("Bring your umbrella!")
+case "sunny":
+print("Don't forget your sunglasses!")
+case "snow":
+print("Stay in and make hot cocoa!")
+default:
+print("Make hot cocoa anyway.")
+}
 ```
 
 ***
@@ -124,6 +143,12 @@ let firstName = "John"
 let lastName = "Appleseed"
 
 // enter code below
+let firstName = "John"
+let lastName = "Appleseed"
+let fullName = firstName + " " + lastName
+
+print("The Fellow's full name is \(fullName)")
+
 ```
 
 ***
