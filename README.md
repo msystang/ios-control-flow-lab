@@ -9,7 +9,7 @@
 1. Submit a Pull Request back to the assignment repo
 1. Paste a link to of your Fork on Canvas and submit
 
-## Question 1
+## Question 1 DONE
 
 What will be printed when the code below is run?  Select all that apply.
 
@@ -33,10 +33,10 @@ print("D")
 - C
 - D
 
-The answer is "A" and "C".
+Answer:  A, C, D
 
 ***
-## Question 2
+## Question 2 DONE
 
 What will the code block below print?  Select all that apply:
 
@@ -58,9 +58,9 @@ switch appInfo {
 - I'm not quite sure what you are looking at
 - It will give a compile-time error
 
-The answer is "myCoolApp hasn't released yet".
+Answer: "myCoolApp hasn't released yet"
 ***
-## Question 3
+## Question 3 DONE
 
 What will be printed to the console when the code below is run?  Select all that apply.
 
@@ -83,10 +83,10 @@ default:
 - C
 - D
 
-The answer is "D".
+Answer: D
 
 ***
-## Question 4
+## Question 4  DONE
 
 What are the errors in the code below for the switch statement? Select all that apply.
 
@@ -108,17 +108,20 @@ case "snickers":
 - No default case in the switch statement
 - No print statement right outside the switch statement
 
-The answer is "No default case in the switch statement".
+Answer: "No default case in the switch statement"
 
 ***
-## Question 5
+## Question 5 DONE
 
 Given the current weather conditions (rain, sunny, snow), use a switch statement to print an appropriate message to the user
 
 ```swift
 let currentWeather = "rain"
-
 // enter code below
+```
+
+Answer:
+```swift
 let currentWeather = "rain"
 
 switch currentWeather {
@@ -134,7 +137,7 @@ print("Make hot cocoa anyway.")
 ```
 
 ***
-## Question 6
+## Question 6 DONE
 
 Given the first name and last name of a Fellow, declare `fullName` variable and use string interpolation to concatenate the Fellow's full name and print to the console e.g The Fellow's full name is John Appleseed
 
@@ -143,12 +146,15 @@ let firstName = "John"
 let lastName = "Appleseed"
 
 // enter code below
+```
+
+Answer:
+```swift
 let firstName = "John"
 let lastName = "Appleseed"
-let fullName = firstName + " " + lastName
+let fullName = "\(firstName) \(lastName)"
 
-print("The Fellow's full name is \(fullName)")
-
+print("The Fellow's full name is \(fullName).")
 ```
 
 ***
